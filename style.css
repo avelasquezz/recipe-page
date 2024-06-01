@@ -1,0 +1,279 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  width: 650px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 100px 0 100px 0;
+}
+
+.main-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.main-container .introduction h1 {
+  font-family: 'Young serif';
+  font-size: 40px;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+} 
+
+.main-container .introduction p {
+  font-family: 'Outfit';
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-top: -7px;
+}
+
+.main-container .preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 35px 0 35px 0;
+} 
+
+.main-container .preparation-time h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Outfit';
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.main-container .preparation-time .item {
+   display: flex;
+   align-items: center;
+}
+
+.main-container .preparation-time .item .bullet-point {
+  color: hsl(332, 51%, 32%);
+  font-size: 10px;
+  margin: 15px 15px 0 10px; 
+  font-weight: 600;
+}
+
+.main-container .preparation-time .item .text {
+  margin: 15px 15px 0 10px; 
+  font-family: 'Outfit';
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.main-container .preparation-time .item .text span {
+  font-weight: 700;
+}
+
+.main-container .ingredients h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Young Serif';
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.main-container .ingredients .item {
+   display: flex;
+   align-items: center;
+}
+
+.main-container .ingredients .item .bullet-point {
+  color: hsl(14, 45%, 36%);
+  font-size: 10px;
+  margin: 15px 15px 0 10px; 
+  font-weight: 600;
+}
+
+.main-container .ingredients .item .text {
+  margin: 15px 15px 0 10px; 
+  font-family: 'Outfit';
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.main-container hr {
+  border: none;
+  border-top: 1px solid hsl(30, 18%, 87%);
+  margin: 40px 0 30px 0;
+}
+
+.main-container .instructions h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Young Serif';
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.main-container .instructions .item {
+  display: flex;
+  align-items: top;
+  font-family: 'Outfit';
+  margin-top: 15px;
+  color: hsl(30, 10%, 34%)
+}
+
+.main-container .instructions .item .number {
+  color: hsl(14, 45%, 36%);
+  font-size: 16px;
+  margin: 0 25px 0 10px;
+  font-weight: 600;
+}
+
+.main-container .instructions .item .text span {
+  font-weight: 700;
+}
+
+.main-container .nutrition h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Young Serif';
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.main-container .nutrition p {
+  font-family: 'Outfit';
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 30px;
+}
+
+.main-container .nutrition .item {
+  display: flex;
+} 
+
+.main-container .nutrition .item .name {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+  margin-left: 35px;
+  font-family: 'Outfit';
+  width: 47%;
+}
+
+.main-container .nutrition .item .value {
+  color: hsl(332, 51%, 32%);
+  font-family: 'Outfit';
+  font-weight: 600;
+  text-align: left;
+}
+
+.main-container .nutrition hr {
+  margin: 15px 0 15px 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(31, 15%, 73%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(31, 6%, 54%);
+}
+
+::-webkit-scrollbar-button {
+    background: none;
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    width: 350px;
+    padding: 30px;
+  }
+
+  .main-container .introduction h1 {
+    font-size: 35px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-container {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    margin: 0 0 -50px 0;
+  }
+
+  .main-container img {
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-container .introduction {
+    margin-top: 50%;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
