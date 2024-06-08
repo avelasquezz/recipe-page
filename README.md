@@ -4,12 +4,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Links
 
-- Solution URL: [Simple Omelette Recipe](https://avelasquezz.github.io/recipe-page/)
+- Live Site URL: [Here](https://avelasquezz.github.io/recipe-page/)
 
 ## Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 
 ## Author
